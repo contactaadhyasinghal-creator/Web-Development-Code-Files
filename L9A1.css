@@ -1,0 +1,49 @@
+body {
+    background-color: blue;
+    font-family: cursive;
+}
+
+.hero-name {
+    font-size: 100px;
+    color: yellow;
+    font-family: sans-serif;
+    text-shadow: 5px 5px red;
+}
+
+.tagline {
+    text-transform: capitalize;
+    color: beige;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.label {
+   text-transform: uppercase; 
+   font-size: 50px;
+   text-decoration: underline;
+   color: brown;
+}
+
+.power {
+    text-transform: capitalize;
+    color: chartreuse;
+    font-weight: bold;
+    font-size: 20 px;
+}
+
+.weekness { 
+    text-decoration: line-through;
+}
+
+.badge {
+    display: inline-block; rotate: 45deg;
+    font-size: 50px;
+    font-weight: bolder;
+    color: yellow;
+    text-shadow: 3px 3px orange;
+}
+
+.made-by {
+    color: brown;
+}
+
