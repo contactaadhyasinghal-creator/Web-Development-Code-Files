@@ -20,7 +20,7 @@ rel="stylesheet">
             <p class="text-muted mb-4">
                 Introduction to Objects in JavaScript - Grade 5 - 7
             </p>
-
+            
             <div class="card shadow-sm mb-3" style="max-width:400px">
                 <div class="card-body">
                     <h5 class="card-title" style="color:#ff5a43">Contact Details</h5>
@@ -73,8 +73,10 @@ rel="stylesheet">
             // Step 3 - Bracket notation
             var schoolEl = document.getElementById("school");
             var cityEl = document.getElementById("city");
+            var phoneEl = document.getElementById("phone");
             schoolEl.textContent = myContact["school"];
             cityEl.textContent = myContact["city"];
+            phoneEl.textContent = myContact["phone"];
 
             // Show the object in code box
             var codeEl = document.getElementById("codeDisplay");
